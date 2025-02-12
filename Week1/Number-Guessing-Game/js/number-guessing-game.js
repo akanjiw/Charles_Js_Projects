@@ -9,7 +9,7 @@ function checkGuess() {
 
   let userGuess = parseInt(document.getElementById('guess').value);
 
-  let randomNumber = Math.floor(Math.random() * 10) + 1;
+  const randomNumber = Math.floor(Math.random() * 10) + 1;
   console.log(`You Chosed: ${userGuess}\nRandom choice was: ${randomNumber}`);
 
   if (userGuess === randomNumber) {
